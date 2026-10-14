@@ -141,5 +141,9 @@ is right there and wrong elsewhere has hard-coded something.
 ## Leaderboard
 
 <!-- leaderboard -->
-_No sealed run yet._
+_Sealed run of 2026-10-14 05:59 UTC: 21 datasets nobody has seen, every submission on the [issue](https://github.com/andrzejnovak/hsf-india-hackathon/issues/1) at its last comment. Recovery plots follow after the deadline._
+
+| # | team     | level | slope mH | slope μ | pull width mH | pull width μ | false disc. | power | recovery | self-check | submitted                                      |
+|---|----------|-------|----------|---------|---------------|--------------|-------------|-------|----------|------------|------------------------------------------------|
+| 1 | demo-red | 1     | 0.91     | 0.90    | 3.87          | 1.30         | 0/2         | 1.00  | 21/21    | PASS       | b178cea (2026-10-14T05:59:05Z by andrzejnovak) |
 <!-- /leaderboard -->
