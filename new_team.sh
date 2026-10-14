@@ -21,7 +21,7 @@ workspace: $W
   submission/                            what you hand in: run.sh <dataset_dir> <output_dir> -> RESULT.json
 
 next:
-  cd $W && opencode          # paste the prompt from the README, or write submission/ yourself
+  cd $W && opencode          # paste the prompt from GUIDE.md, or write submission/ yourself
   cd $HERE && python3 -m sbh check --task gauss_peak --submission $W/submission --dataset datasets/public/seed_000 --determinism
   cd $W && git add -A && git commit -m submission && git push   # to a public GitHub repository of yours
   cd $HERE && bash submit.sh $1 <git url>                        # the self-check, is it pushed, the line to post on the submissions issue
